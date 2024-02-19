@@ -1,7 +1,7 @@
 {"intents": [
     {"tag": "greetings",
     "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
-    "responses": ["Hello!","Hey!","What can I do for you?"]
+    "responses": ["What can I do for you? college address\nhow long are the classes?\ncourses available\nadmission requirements\nWhat is the exam pattern\ncollege facilities"]
     },
   
     {"tag": "name",
@@ -36,7 +36,7 @@
   
     {"tag": "courses",
     "patterns": ["what courses are available", "how many courses are there in this college","what courses are available",
-    "how many courses are there in this college",
+    "how many courses are there in this college","courses available",
     "list of courses",
     "available programs",
     "course options",
@@ -86,7 +86,7 @@
     },
   
     {"tag": "facilities",
-    "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+    "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures ","college facilities"],
     "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, discusson room, canteen, parking space, and student service for any students queries."]
     },
   
