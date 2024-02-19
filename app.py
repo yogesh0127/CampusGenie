@@ -4,6 +4,7 @@ from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
 import numpy as np
+import os
 
 from keras.models import load_model
 model = load_model('model.h5')
@@ -80,4 +81,4 @@ def get_bot_response():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=os.getenv("PORT", default=5000))
