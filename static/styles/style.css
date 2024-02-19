@@ -71,6 +71,10 @@
     align-items: flex-end;
     margin-bottom: 10px;
   }
+
+  .msg-text {
+      white-space: pre;
+  }
   
   .msg-img {
     width: 50px;
