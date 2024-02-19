@@ -1,0 +1,112 @@
+{"intents": [
+    {"tag": "greetings",
+    "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+    "responses": ["Hello!","Hey!","What can I do for you?"]
+    },
+  
+    {"tag": "name",
+    "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+    "responses": ["You can call me campusGenie","I'm campusGenie","I'm campusGenie your virtual assistant"]
+    },
+    {"tag":"Hod",
+     "patterns":["who is the head of cse department","cse hod","computer science hod","head of cse"],
+     "responses":["Dr. suvasini panigrahi "]
+  
+    },
+  
+    {"tag": "Location",
+    "patterns": ["location","where is it located","what is the location of the college","college address" ,"college location"],
+    "responses": ["Sambalpur district of Odisha (Western Part),burla ,odisha,768018"]
+    },
+  
+    {"tag": "semesters",
+    "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+    "responses": ["There are 8 semesters in a year for BTech"]
+    },
+  
+    {"tag": "semDuration",
+    "patterns": ["how many months are there in a semester","how long will be a single semester"],
+    "responses": ["The single semester will be around 5-6 months."]
+    },
+    
+    {"tag": "classes",
+    "patterns": ["how many classes will be there in a day","how long are the classes?"],
+    "responses": ["There may be 6-8 classes per day. Each class will be of 1 hour depending upon the course you are enrolled in."]
+    },
+  
+    {"tag": "courses",
+    "patterns": ["what courses are available", "how many courses are there in this college","what courses are available",
+    "how many courses are there in this college",
+    "list of courses",
+    "available programs",
+    "course options",
+    "majors offered",
+    "show me the courses",
+    "explore academic programs"],
+    "responses": ["Veer surendra sai university of technology has following courses :\n\n1)  04 YEARS BACHELOR OF TECHNOLOGY (B.TECH) PROGRAMMES (08 Semesters)\n2)  05 YEARS BACHELOR OF ARCHITECTURE (B.ARCH) PROGRAMMES (10 Semesters)\n3)  05 YEARS B.TECH & M.TECH DUAL DEGREE PROGRAMMES (10 Semesters)\n4) 02 YEARS MASTER OF TECHNOLOGY (M.TECH) PROGRAMMES (04 Semesters)\n5) 02 YEARS MASTER IN COMPUTER APPLICATIONS (MCA) PROGRAMME (04 Semesters)\n6) 02 YEARS MASTER OF SCIENCE (M.Sc.) PROGRAMMES (04 Semesters)\n7) 05 YEARS INTEGRATED MASTER OF SCIENCE (M.Sc.) PROGRAMMES (10 Semesters)\n8) 01 YEAR MASTER IN PHILOSOPHY (M.PHIL) PROGRAMMES (02 Semesters)\n9) PhD PROGRAMMES\n"]
+    },
+  
+     {"tag": "courseDuration",
+    "patterns": ["how long will be Btech", "how long will it take to complete BTech or MTech course"],
+    "responses": ["Our college offers 4 year long BTech course and 5  year long MTech course.\n\n To know more about course duration and course you can type course"]
+    },
+  
+    {"tag": "studentRequirements",
+    "patterns": ["what are the student requirements for admission","entry requirements","admission requirements","collge admission", "what are the student requirements for admission",
+    "entry requirements",
+    "admission requirements",
+    "college admission",
+    "how to apply for admission",
+    "application process",
+    "admission eligibility",
+    "what do I need to get admitted"],
+    "responses": ["1) FOR 04 YEARS B.TECH / 05 YEARS B.TECH & M.TECH DUAL DEGREE (CIVIL ENGG. & ELECTRICAL ENGG.) / B.TECH (LATERAL ENTRY) / MCA & MCA (LATERAL ENTRY) AND 5YRS ARCHITECTURE WILL BE DONE THROUGH OJEE / JEE (Main)\n 2)02 YEARS M.TECH:- Valid GATE Score is required for admission into 02 years M.Tech Programme. However, vacant seats in M.Tech specializations are filled up by Non-GATE candidate based on career assessment.\n3)FOR 02 YEARS M.Sc.:- Career Assessment is the criteria for admission into 02 years M.Sc. Programme in July every year.\n4)05 YEARS INTEGRATED M.Sc.:- Entrance Exam Conducted by VSSUT / OJEE / OJEE(Main) in July every year.\n5)01 YEARS M.PHIL:- Entrance Exam Conduct by VSSUT in July every year.\n6)Ph.D.:- Entrance Exam Conduct by VSSUT followed by interview (in July &January every year)"]
+    },
+  
+    
+  
+    {"tag": "teachingStyle",
+    "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?"],
+    "responses": ["Stringent selection procedure, in-depth & high intensity of teaching are not the only hallmarks of VSSUT. On top of all these, students are taken through industrial tours and are familiarized through industrial safety gadgets & procedures. They get an opportunity to hear from the industry stalwarts, CEOs, entrepreneurs, economists, and planners in the campus. They are en¬couraged to innovate and file patents. They are encouraged and guided to win National Level competitions on robotics, automotive designs, sports, and quiz. Students are also trained in Soft Skills to work seamlessly in a multicultural environment."]
+    },
+  
+    {"tag": "exams",
+    "patterns": ["what are the exams like?","What is the exam pattern"],
+    "responses": ["For BTech.\nThere are assignments and written exams. The assignments have deadlines which you should not exceed if you want to get better marks,and exams are of 2 types midsem and endsem the mid sem consists of 30 marks and endsem consists of 50 marks and 20 marks are for assignment."]
+    },
+  
+    {"tag": " study hours",
+    "patterns": ["what are your hours","when are you guys open","what your hours of operation","college study hours"],
+    "responses": ["Our college premises will be open from 7:00 am to 5:00 pm only."]
+    },
+  
+    {"tag": "funActivities",
+    "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
+    "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Carnival, Holi festival, and Christmas. \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+    },
+  
+    {"tag": "facilities",
+    "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures "],
+    "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet, library, discusson room, canteen, parking space, and student service for any students queries."]
+    },
+  
+    {"tag": "fee",
+    "patterns": ["how much is the college fee","what is the fee structure","fee structire "],
+    "responses": ["The college fee varies from courses to courses and semester to semester \n. You can check it on our website - https://www.vssut.ac.in/course-fees.php"]
+    },
+  
+    {"tag": "goodbye",
+    "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+    "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+    },
+  
+    {"tag": "invalid",
+      "patterns": ["","gvsd","asbhk","hgy","er","wesdfr","yuyy"],
+      "responses": ["Sorry, can't understand you", "Please give me more info"]
+    },
+  
+    {"tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    }
+  ]}
