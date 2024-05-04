@@ -1,7 +1,7 @@
 {"intents": [
   {"tag": "greetings",
   "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
-  "responses": ["What can I do for you?\n\n,college address,\n\nhow long are the classes,\ncourses available,\nadmission requirements\n,What is the exam pattern,\ncollege facilities"]
+  "responses": ["What can I do for you?\ncollege address\n\nhow long are the classes\ncourses available\nadmission requirements\nWhat is the exam pattern\ncollege facilities"]
   },
   {
     "tag": "clubs",
