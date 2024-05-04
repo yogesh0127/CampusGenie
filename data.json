@@ -1,260 +1,260 @@
 {"intents": [
-    {"tag": "greetings",
-    "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
-    "responses": ["What can I do for you? college address\nhow long are the classes?\ncourses available\nadmission requirements\nWhat is the exam pattern\ncollege facilities"]
-    },
-    {
-      "tag": "clubs",
-      "patterns": ["clubs", "total clubs", "vssut clubs", "tech clubs", "non tech clubs"],
-      "responses": [
-        "There are various clubs at VSSUT, including both technical and non-technical ones. You can find a list on the VSSUT website or by reaching out to current students."
-      ]
-    },
-    {
-      "tag": "clubs",
-      "patterns": ["clubs", "total clubs", "vssut clubs", "tech clubs", "non tech clubs"],
-      "responses": [
-        "There are various clubs at VSSUT, including STUDENTS TECHNICAL SOCIETY\nStudents Cluctural society\nStudents Sports Society"
-      ]
-    },
-    {
-      "tag": "Technical clubs",
-      "patterns": [ "technical clubs", "tech clubs","technical society"],
-      "responses": [
-        "1. Robotics club\n 2. Idea Club \n 3.IEEE\n 4. ASME\n 5. EDP Society\n "
-      ]
-    },
-    {
-      "tag": "Cultural clubs",
-      "patterns": [ "non tech clubs", "vssut non tech clubs", "non technical clubs", "cultural clubs"],
-      "responses": [
-        "a. Cultural Association\nb.Dramatic Club\n c.Music & Dance Club\n d.Art & Photography\n e. Galaxy\n f. Literary Society \ng. Audio Visual Club \nh. Quiz Club"
-      ]
-    },
-    {
-      "tag": "sports clubs",
-      "patterns": ["sports clubs", "vssut sports clubs"],
-      "responses": [
-        "VSSUT has a dedicated Athletic Club that organizes various sports activities and competitions. Facilities include a track, fields for various sports, and a gym.and yoga club organise various yoga events"
-      ]
-    },
-    {
-      "tag": "hostel facility",
-      "patterns": ["hostel facility", "vssut hostel", "hostel rooms","Hall of residence"],
-      "responses": [
-        "Anuradha Hall of Residence - 290 girls\nPulasthya Hall of Residence - 384 boys\nMarichi Hall of Residence - 261 boys\nAtri Hall of Residence - 254 boys\nKratu Hall of Residence - 254 boys\nVasistha Hall of Residence - 275 boys\nPulaha Hall of Residence - 812 boys\nArundhati Hall of Residence - 319 girls\nRohini Hall of Residence - 201 girls\nVisakha Hall of Residence - 277 girls\nVasundhara Hall of Residence - 275 girls\nAngira Hall of Residence - 100 girls\n"
-      ]
-    },
-    {
-      "tag": "stationary shop",
-      "patterns": ["stationary shop", "shop inside vssut"],
-      "responses": [
-        " VSSUT has a shop or convenience store on campus that sells stationery items and each hostel have their own stationary shops"
-      ]
-    }, 
-    {
-      "tag": "Events",
-      "patterns": ["official events", "cultural meet ","meet"],
-      "responses": [
-        "Annual Technical meet (Inter College/University meet) called SAMAVESH\nAnnual Cultural Meet VASSUNT\nAnnual Atheletic Meet\nInter University Sports Meet\nGanesh Puja, Saraswati Puja\n Viswakarma Puja\nUniversity Foundation Day on 1st July\nVeer Surendra Sai Jayanti on 23rd January along with Netaji Subhash Bose Jayanti\nWomen's Day on 8th March\nYoga Day on 21st June\nMatrubhasa Divas\nAlumni Meet\nNCC Day\n Tedex\nIndependence Day and Republic Day\n"
-      ]
-    },    
-    {
-      "tag": "gym",
-      "patterns": ["gym", "vssut gym", "sports facilities"],
-      "responses": [
-        "VSSUT has a gym with various equipment for exercise. Additionally, there are facilities for sports like badminton, basketball, volleyball, football, and more. A swimming pool is also under construction."
-      ]
-    },
-    {
-      "tag": "room clean",
-      "patterns": ["room clean", "housekeeping", "vssut hostel cleaning"],
-      "responses": [
-        "Information about room cleaning services and frequency might be available from the hostel administration or student handbooks."
-      ]
-    },
-    {
-      "tag": "laundry",
-      "patterns": ["laundry", "laundry service", "vssut laundry"],
-      "responses": [
-        "There is no laundry facility but each hostel have washing machine and student have to do their laundry by themselves."
-      ]
-    },    
-    {
-      "tag": "visit",
-      "patterns": ["place to visit", "Near by places", "near place to visit"],
-      "responses": [
-        "Hirakud Dam(6kms)\nChiplima Hydro Electric Project(28kms)\nSamaleswari Temple(10kms)\nHINDALCO(8kms)\nVedanta Aluminium Plant(48kms)\nIIM Sambalpur(26kms)\nVIMSAR Medical Institute-1km\n"
-      ]
-    },    
-    {
-      "tag": "samavesh",
-      "patterns": ["samavesh", "vssut fest", "cultural fest"],
-      "responses": [
-        "VSSUT organizes Samavesh, its annual tech fest, featuring technical competitions, workshops, exhibitions, and cultural events. Additionally, there might be a separate cultural fest focused on artistic performances."
-      ]
-    },
-    {
-      "tag": "hostel fest",
-      "patterns": ["hostel fest", "vssut hostel fest"],
-      "responses": [
-        "individual hostels at VSSUT might organize their own cultural or recreational events.,They usually have a grand feat at the end of the month"
-      ]
-    },
-    {
-      "tag": "medical facility",
-      "patterns": ["medical facility", "vssut medical", "health center"],
-      "responses": [
-        "It's likely VSSUT has a health center or tie-ups with nearby medical facilities to provide basic medical care for students. Specific details might be available on the VSSUT website or from the student welfare office."
-      ]
-    },
-    {
-      "tag": "vehicle",
-      "patterns": ["vehicle", "vssut vehicle", "parking"],
-      "responses": [
-        "VSSUT likely has designated parking areas for students' vehicles. The vehicle are not allowed in the hostel premises."
-      ]
-    },
-    {
-      "tag": "guards",
-      "patterns": ["guards", "security", "vssut security"],
-      "responses": [
-        "VSSUT has security personnel to ensure the safety and security of the campus and students."
-      ]
-    },        
-                
-    {
-      "tag": "recruitment process",
-      "patterns": ["recruitment process", "vssut recruitment", "job placements"],
-      "responses": [
-        "VSSUT has a dedicated placement cell that facilitates recruitment drives by companies. Information about the process can be found on the VSSUT website or by contacting the placement cell."
-      ]
-    },    
-    {"tag": "Placement cell",
-    "patterns": ["who is the head of placement cell?","Under whose supervision placement cell is"],
-    "responses": ["The Placement Cell is headed by Prof. (Dr.) P.Nanda, supported by a 6 member Training & Placement Council. Each department has a faculty advisor to coordinate between the department and the Training & Placement Cell. There is a student committee represented by the students from each of the departments to coordinate various activities undertaken by the Training & Placement Cell. Student coordinators get ample opportunities for active participation in all the works related to Training & Placement."]
-    },
-    
-    {"tag": "name",
-    "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
-    "responses": ["You can call me campusGenie","I'm campusGenie","I'm campusGenie your virtual assistant"]
-    },
-    {"tag":"Hod",
-     "patterns":["who is the head of cse department","cse hod","computer science hod.","head of cse"],
-     "responses":["Dr. suvasini panigrahi "]
+  {"tag": "greetings",
+  "patterns": ["hello","hey","hi","good day","Greetings","what's up?","how is it going?"],
+  "responses": ["What can I do for you?\n\n,college address,\n\nhow long are the classes,\ncourses available,\nadmission requirements\n,What is the exam pattern,\ncollege facilities"]
+  },
+  {
+    "tag": "clubs",
+    "patterns": ["clubs", "total clubs", "vssut clubs", "tech clubs", "non tech clubs"],
+    "responses": [
+      "There are various clubs at VSSUT, including both technical and non-technical ones. You can find a list on the VSSUT website or by reaching out to current students."
+    ]
+  },
+  {
+    "tag": "clubs",
+    "patterns": ["clubs", "total clubs", "vssut clubs"],
+    "responses": [
+      "There are various clubs at VSSUT, including STUDENTS TECHNICAL SOCIETY\nStudents Cluctural society\nStudents Sports Society"
+    ]
+  },
+  {
+    "tag": "Technical clubs",
+    "patterns": [ "technical clubs", "tech clubs","technical society"],
+    "responses": [
+      "1. Robotics club\n 2. Idea Club \n 3.IEEE\n 4. ASME\n 5. EDP Society\n "
+    ]
+  },
+  {
+    "tag": "Cultural clubs",
+    "patterns": [ "non tech clubs", "vssut non tech clubs", "non technical clubs", "cultural clubs"],
+    "responses": [
+      "a. Cultural Association\nb.Dramatic Club\n c.Music & Dance Club\n d.Art & Photography\n e. Galaxy\n f. Literary Society \ng. Audio Visual Club \nh. Quiz Club"
+    ]
+  },
+  {
+    "tag": "sports clubs",
+    "patterns": ["sports clubs", "vssut sports clubs"],
+    "responses": [
+      "VSSUT has a dedicated Athletic Club that organizes various sports activities and competitions. Facilities include a track, fields for various sports, and a gym.and yoga club organise various yoga events"
+    ]
+  },
+  {
+    "tag": "hostel facility",
+    "patterns": ["hostel facility", "vssut hostel", "hostel rooms","Hall of residence available","hostel capacity"],
+    "responses": [
+      "Anuradha Hall of Residence - 290 girls\nPulasthya Hall of Residence - 384 boys\nMarichi Hall of Residence - 261 boys\nAtri Hall of Residence - 254 boys\nKratu Hall of Residence - 254 boys\nVasistha Hall of Residence - 275 boys\nPulaha Hall of Residence - 812 boys\nArundhati Hall of Residence - 319 girls\nRohini Hall of Residence - 201 girls\nVisakha Hall of Residence - 277 girls\nVasundhara Hall of Residence - 275 girls\nAngira Hall of Residence - 100 girls\n"
+    ]
+  },
+  {
+    "tag": "stationary shop",
+    "patterns": ["stationary shop", "shop inside vssut"],
+    "responses": [
+      " VSSUT has a shop or convenience store on campus that sells stationery items and each hostel have their own stationary shops"
+    ]
+  }, 
+  {
+    "tag": "Events",
+    "patterns": ["official events", "cultural meet ","meet","events"],
+    "responses": [
+      "Annual Technical meet (Inter College/University meet) called SAMAVESH\nAnnual Cultural Meet VASSUNT\nAnnual Atheletic Meet\nInter University Sports Meet\nGanesh Puja, Saraswati Puja\n Viswakarma Puja\nUniversity Foundation Day on 1st July\nVeer Surendra Sai Jayanti on 23rd January along with Netaji Subhash Bose Jayanti\nWomen's Day on 8th March\nYoga Day on 21st June\nMatrubhasa Divas\nAlumni Meet\nNCC Day\n Tedex\nIndependence Day and Republic Day\n"
+    ]
+  },    
+  {
+    "tag": "gym",
+    "patterns": ["gym", "vssut gym", "sports facilities"],
+    "responses": [
+      "VSSUT has a gym with various equipment for exercise. Additionally, there are facilities for sports like badminton, basketball, volleyball, football, and more. A swimming pool is also under construction."
+    ]
+  },
+  {
+    "tag": "room clean",
+    "patterns": ["room clean", "housekeeping", "vssut hostel cleaning"],
+    "responses": [
+      "Information about room cleaning services and frequency might be available from the hostel administration or student handbooks."
+    ]
+  },
+  {
+    "tag": "laundry",
+    "patterns": ["laundry", "laundry service", "vssut laundry"],
+    "responses": [
+      "There is no laundry facility but each hostel have washing machine and student have to do their laundry by themselves."
+    ]
+  },    
+  {
+    "tag": "visit",
+    "patterns": ["place to visit", "Near by places", "near place to visit"],
+    "responses": [
+      "Hirakud Dam(6kms)\n,Chiplima Hydro Electric Project(28kms)\n,Samaleswari Temple(10kms)\n,HINDALCO(8kms)\n,Vedanta Aluminium Plant(48kms),\nIIM Sambalpur(26kms)\n,VIMSAR Medical ,Institute-1km\n"
+    ]
+  },    
+  {
+    "tag": "samavesh",
+    "patterns": ["samavesh", "vssut fest", "cultural fest"],
+    "responses": [
+      "VSSUT organizes Samavesh, its annual tech fest, featuring technical competitions, workshops, exhibitions, and cultural events. Additionally, there might be a separate cultural fest focused on artistic performances."
+    ]
+  },
+  {
+    "tag": "hostel fest",
+    "patterns": ["hostel fest", "vssut hostel fest"],
+    "responses": [
+      "individual hostels at VSSUT might organize their own cultural or recreational events.,They usually have a grand feat at the end of the month"
+    ]
+  },
+  {
+    "tag": "medical facility",
+    "patterns": ["medical facility", "vssut medical", "health center"],
+    "responses": [
+      "It's likely VSSUT has a health center or tie-ups with nearby medical facilities to provide basic medical care for students. Specific details might be available on the VSSUT website or from the student welfare office."
+    ]
+  },
+  {
+    "tag": "vehicle",
+    "patterns": ["vehicle", "vssut vehicle", "parking"],
+    "responses": [
+      "VSSUT likely has designated parking areas for students' vehicles. The vehicle are not allowed in the hostel premises."
+    ]
+  },
+  {
+    "tag": "guards",
+    "patterns": ["guards", "security", "vssut security"],
+    "responses": [
+      "VSSUT has security personnel to ensure the safety and security of the campus and students."
+    ]
+  },        
+              
+  {
+    "tag": "recruitment process",
+    "patterns": ["recruitment process", "vssut recruitment", "job placements","Placements"],
+    "responses": [
+      "VSSUT has a dedicated placement cell that facilitates recruitment drives by companies. Information about the process can be found on the VSSUT website or by contacting the placement cell."
+    ]
+  },    
+  {"tag": "Placement cell",
+  "patterns": ["who is the head of placement cell?","Under whose supervision placement cell is"],
+  "responses": ["The Placement Cell is headed by Prof. (Dr.) P.Nanda, supported by a 6 member Training & Placement Council. Each department has a faculty advisor to coordinate between the department and the Training & Placement Cell. There is a student committee represented by the students from each of the departments to coordinate various activities undertaken by the Training & Placement Cell. Student coordinators get ample opportunities for active participation in all the works related to Training & Placement."]
+  },
   
-    },
+  {"tag": "name",
+  "patterns": ["what is your name","name","what's your name","who are you","what should I call you"],
+  "responses": ["You can call me campusGenie","I'm campusGenie","I'm campusGenie your virtual assistant"]
+  },
+  {"tag":"Hod",
+   "patterns":["who is the head of cse department","cse hod","computer science hod.","head of cse"],
+   "responses":["Dr. suvasini panigrahi "]
+
+  },
+
+  {"tag": "Location",
+  "patterns": ["location","where is it located","what is the location of the college","college address" ,"college location"],
+  "responses": ["Sambalpur district of Odisha (Western Part),burla ,odisha,768018"]
+  },
+
+  {"tag": "semesters",
+  "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
+  "responses": ["There are 2 semesters in a year for BTech"]
+  },
+
+  {"tag": "semDuration",
+  "patterns": ["how many months are there in a semester","how long will be a single semester"],
+  "responses": ["The single semester will be around 5-6 months."]
+  },
   
-    {"tag": "Location",
-    "patterns": ["location","where is it located","what is the location of the college","college address" ,"college location"],
-    "responses": ["Sambalpur district of Odisha (Western Part),burla ,odisha,768018"]
-    },
+  {"tag": "classes",
+  "patterns": ["how many classes will be there in a day","how long are the classes?"],
+  "responses": ["There may be 6-8 classes per day. Each class will be of 1 hour depending upon the course you are enrolled in."]
+  },
+
+  {"tag": "courses",
+  "patterns": ["what courses are available", "how many courses are there in this college","what courses are available",
+  "how many courses are there in this college","courses available",
+  "list of courses",
+  "available programs",
+  "course options",
+  "majors offered",
+  "show me the courses",
+  "explore academic programs"],
+  "responses": ["Veer surendra sai university of technology has following courses :\n\n1)  04 YEARS BACHELOR OF TECHNOLOGY (B.TECH) PROGRAMMES (08 Semesters)\n2)  05 YEARS BACHELOR OF ARCHITECTURE (B.ARCH) PROGRAMMES (10 Semesters)\n3)  05 YEARS B.TECH & M.TECH DUAL DEGREE PROGRAMMES (10 Semesters)\n4) 02 YEARS MASTER OF TECHNOLOGY (M.TECH) PROGRAMMES (04 Semesters)\n5) 02 YEARS MASTER IN COMPUTER APPLICATIONS (MCA) PROGRAMME (04 Semesters)\n6) 02 YEARS MASTER OF SCIENCE (M.Sc.) PROGRAMMES (04 Semesters)\n7) 05 YEARS INTEGRATED MASTER OF SCIENCE (M.Sc.) PROGRAMMES (10 Semesters)\n8) 01 YEAR MASTER IN PHILOSOPHY (M.PHIL) PROGRAMMES (02 Semesters)\n9) PhD PROGRAMMES\n"]
+  },
+
+   {"tag": "courseDuration",
+  "patterns": ["how long will be Btech", "how long will it take to complete BTech or MTech course"],
+  "responses": ["Our college offers 4 year long BTech course and 5  year long MTech course.\n\n To know more about course duration and course you can type course"]
+  },
+
+  {"tag": "studentRequirements",
+  "patterns": ["what are the student requirements for admission","entry requirements","admission requirements","collge admission", "what are the student requirements for admission",
+  "entry requirements",
+  "admission requirements",
+  "college admission",
+  "how to apply for admission",
+  "application process",
+  "admission eligibility","mode of admission",
+  "what do I need to get admitted"],
+  "responses": ["1) FOR 04 YEARS B.TECH / 05 YEARS B.TECH & M.TECH DUAL DEGREE (CIVIL ENGG. & ELECTRICAL ENGG.) / B.TECH (LATERAL ENTRY) / MCA & MCA (LATERAL ENTRY) AND 5YRS ARCHITECTURE WILL BE DONE THROUGH OJEE / JEE (Main)\n 2)02 YEARS M.TECH:- Valid GATE Score is required for admission into 02 years M.Tech Programme. However, vacant seats in M.Tech specializations are filled up by Non-GATE candidate based on career assessment.\n3)FOR 02 YEARS M.Sc.:- Career Assessment is the criteria for admission into 02 years M.Sc. Programme in July every year.\n4)05 YEARS INTEGRATED M.Sc.:- Entrance Exam Conducted by VSSUT / OJEE / OJEE(Main) in July every year.\n5)01 YEARS M.PHIL:- Entrance Exam Conduct by VSSUT in July every year.\n6)Ph.D.:- Entrance Exam Conduct by VSSUT followed by interview (in July &January every year)"]
+  },
+
   
-    {"tag": "semesters",
-    "patterns": ["how many semesters are there in a year","how many semesters one should study in a year"],
-    "responses": ["There are 8 semesters in a year for BTech"]
-    },
+
+  {"tag": "teachingStyle",
+  "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?"],
+  "responses": ["Stringent selection procedure, in-depth & high intensity of teaching are not the only hallmarks of VSSUT. On top of all these, students are taken through industrial tours and are familiarized through industrial safety gadgets & procedures. They get an opportunity to hear from the industry stalwarts, CEOs, entrepreneurs, economists, and planners in the campus. They are en¬couraged to innovate and file patents. They are encouraged and guided to win National Level competitions on robotics, automotive designs, sports, and quiz. Students are also trained in Soft Skills to work seamlessly in a multicultural environment."]
+  },
+
+  {"tag": "exams",
+  "patterns": ["what are the exams like?","What is the exam pattern"],
+  "responses": ["For BTech.\nThere are assignments and written exams. The assignments have deadlines which you should not exceed if you want to get better marks,and exams are of 2 types midsem and endsem the mid sem consists of 30 marks and endsem consists of 50 marks and 20 marks are for assignment."]
+  },
+  {"tag": "who we are",
+  "patterns": ["who we are?","What is vssut"],
+  "responses": ["VSSUT is a State University recognized under Section 12(B) of UGC. With a state of the art infrastructure, well-equipped laboratory facilities, best-in-class faculty, a long-drawn track record of high quality research and development and focus on cutting-edge technology, VSSUT produces 1300+ industry-ready graduates besides a host of research scholars. True to its reputation, VSSUT imparts high quality education to about 5200 students in B. Tech (13 disciplines), M. Tech (21 disciplines), M. Sc (9 disciplines), M. Phil, MCA and PhD in a 350-acre fully residential campus. With one-third of students as women, it has one of the best gender diversity ratio."]
+  },
+  {"tag": "vssut join",
+  "patterns": ["why vssut?","Why should i join vssut"],
+  "responses": ["First in the state and second in Eastern India (after IIT, Kharagpur), University College of Engineering(UCE) which started with 40 students six decades back has come a long way. Today it is a State University, called Veer Surendra Sai University of Technology (VSSUT) operating in a 350 acresprawling campus, imparting world class education to over 5000 students in multiple under graduate and post graduate courses including PhD."]
+  },
+  {"tag": "known for",
+  "patterns": ["what is vssut know for?","What we are known for"],
+  "responses": ["Imparting the best quality Engineering education thereby creating top-brass Nation- builders has been the solitary motive of VSSUT ever since it came into existence. Unflinching academic rigor and strict adherence towards ethics are core values of VSSUT. Tough evaluation standards, strict deadlines of submissions of reports, frequent examinations are few highlights of the uncompromising levels of academic standards. This makes the students gradually elevate from learners to astute professionals capable of handling industry / corporate pressure and still deliver high performance. The competitive environments offered by VSSUT makes the students ready to face the ever- changing and highly challenging actual job arena. We also have the best gamut of faculty who not only serve VSSUT but also deliver in other reputed institutions all across the region and are on panels of IITs and NITs."]
+  },
+
+  {"tag": " study hours",
+  "patterns": ["what are your hours","when are you guys open","what your hours of operation","college study hours"],
+  "responses": ["Our college premises will be open from 7:00 am to 5:00 pm only."]
+  },
+
+  {"tag": "funActivities",
+  "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
+  "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Carnival, Holi festival, and Christmas. \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
+  },
+
+  {"tag": "facilities",
+  "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures ","college facilities"],
+  "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet,1200 capacity Auditorium,300 capacity Biju Pattnaik E-learning Centre, library, discusson room, canteen, parking space,Research Facility,Workshop,guest house and student service for any students queries."]
+  },
+
+  {"tag": "fee",
+  "patterns": ["how much is the college fee","what is the fee structure","fee structire "],
+  "responses": ["The college fee varies from courses to courses and semester to semester \n. You can check it on our website - https://www.vssut.ac.in/course-fees.php"]
+  },
+  {"tag": "Area",
+  "patterns": ["Total area of vssut","Total acres","available area of students "],
+  "responses": ["TTotal area Available: 502 Acre Built up area Academics(45896sqm)+ Hostel for Boys and Girls(87466sqm) = 133362Sqm"]
+  },
   
-    {"tag": "semDuration",
-    "patterns": ["how many months are there in a semester","how long will be a single semester"],
-    "responses": ["The single semester will be around 5-6 months."]
-    },
-    
-    {"tag": "classes",
-    "patterns": ["how many classes will be there in a day","how long are the classes?"],
-    "responses": ["There may be 6-8 classes per day. Each class will be of 1 hour depending upon the course you are enrolled in."]
-    },
   
-    {"tag": "courses",
-    "patterns": ["what courses are available", "how many courses are there in this college","what courses are available",
-    "how many courses are there in this college","courses available",
-    "list of courses",
-    "available programs",
-    "course options",
-    "majors offered",
-    "show me the courses",
-    "explore academic programs"],
-    "responses": ["Veer surendra sai university of technology has following courses :\n\n1)  04 YEARS BACHELOR OF TECHNOLOGY (B.TECH) PROGRAMMES (08 Semesters)\n2)  05 YEARS BACHELOR OF ARCHITECTURE (B.ARCH) PROGRAMMES (10 Semesters)\n3)  05 YEARS B.TECH & M.TECH DUAL DEGREE PROGRAMMES (10 Semesters)\n4) 02 YEARS MASTER OF TECHNOLOGY (M.TECH) PROGRAMMES (04 Semesters)\n5) 02 YEARS MASTER IN COMPUTER APPLICATIONS (MCA) PROGRAMME (04 Semesters)\n6) 02 YEARS MASTER OF SCIENCE (M.Sc.) PROGRAMMES (04 Semesters)\n7) 05 YEARS INTEGRATED MASTER OF SCIENCE (M.Sc.) PROGRAMMES (10 Semesters)\n8) 01 YEAR MASTER IN PHILOSOPHY (M.PHIL) PROGRAMMES (02 Semesters)\n9) PhD PROGRAMMES\n"]
-    },
-  
-     {"tag": "courseDuration",
-    "patterns": ["how long will be Btech", "how long will it take to complete BTech or MTech course"],
-    "responses": ["Our college offers 4 year long BTech course and 5  year long MTech course.\n\n To know more about course duration and course you can type course"]
-    },
-  
-    {"tag": "studentRequirements",
-    "patterns": ["what are the student requirements for admission","entry requirements","admission requirements","collge admission", "what are the student requirements for admission",
-    "entry requirements",
-    "admission requirements",
-    "college admission",
-    "how to apply for admission",
-    "application process",
-    "admission eligibility","mode of admission",
-    "what do I need to get admitted"],
-    "responses": ["1) FOR 04 YEARS B.TECH / 05 YEARS B.TECH & M.TECH DUAL DEGREE (CIVIL ENGG. & ELECTRICAL ENGG.) / B.TECH (LATERAL ENTRY) / MCA & MCA (LATERAL ENTRY) AND 5YRS ARCHITECTURE WILL BE DONE THROUGH OJEE / JEE (Main)\n 2)02 YEARS M.TECH:- Valid GATE Score is required for admission into 02 years M.Tech Programme. However, vacant seats in M.Tech specializations are filled up by Non-GATE candidate based on career assessment.\n3)FOR 02 YEARS M.Sc.:- Career Assessment is the criteria for admission into 02 years M.Sc. Programme in July every year.\n4)05 YEARS INTEGRATED M.Sc.:- Entrance Exam Conducted by VSSUT / OJEE / OJEE(Main) in July every year.\n5)01 YEARS M.PHIL:- Entrance Exam Conduct by VSSUT in July every year.\n6)Ph.D.:- Entrance Exam Conduct by VSSUT followed by interview (in July &January every year)"]
-    },
-  
-    
-  
-    {"tag": "teachingStyle",
-    "patterns": ["what is the teaching style of this college?","Is the teaching pattern different from other college?","what is the teaching format?"],
-    "responses": ["Stringent selection procedure, in-depth & high intensity of teaching are not the only hallmarks of VSSUT. On top of all these, students are taken through industrial tours and are familiarized through industrial safety gadgets & procedures. They get an opportunity to hear from the industry stalwarts, CEOs, entrepreneurs, economists, and planners in the campus. They are en¬couraged to innovate and file patents. They are encouraged and guided to win National Level competitions on robotics, automotive designs, sports, and quiz. Students are also trained in Soft Skills to work seamlessly in a multicultural environment."]
-    },
-  
-    {"tag": "exams",
-    "patterns": ["what are the exams like?","What is the exam pattern"],
-    "responses": ["For BTech.\nThere are assignments and written exams. The assignments have deadlines which you should not exceed if you want to get better marks,and exams are of 2 types midsem and endsem the mid sem consists of 30 marks and endsem consists of 50 marks and 20 marks are for assignment."]
-    },
-    {"tag": "who we are",
-    "patterns": ["who we are?","What is vssut"],
-    "responses": ["VSSUT is a State University recognized under Section 12(B) of UGC. With a state of the art infrastructure, well-equipped laboratory facilities, best-in-class faculty, a long-drawn track record of high quality research and development and focus on cutting-edge technology, VSSUT produces 1300+ industry-ready graduates besides a host of research scholars. True to its reputation, VSSUT imparts high quality education to about 5200 students in B. Tech (13 disciplines), M. Tech (21 disciplines), M. Sc (9 disciplines), M. Phil, MCA and PhD in a 350-acre fully residential campus. With one-third of students as women, it has one of the best gender diversity ratio."]
-    },
-    {"tag": "vssut join",
-    "patterns": ["why vssut?","Why should i join vssut"],
-    "responses": ["First in the state and second in Eastern India (after IIT, Kharagpur), University College of Engineering(UCE) which started with 40 students six decades back has come a long way. Today it is a State University, called Veer Surendra Sai University of Technology (VSSUT) operating in a 350 acresprawling campus, imparting world class education to over 5000 students in multiple under graduate and post graduate courses including PhD."]
-    },
-    {"tag": "known for",
-    "patterns": ["what is vssut know for?","What we are known for"],
-    "responses": ["Imparting the best quality Engineering education thereby creating top-brass Nation- builders has been the solitary motive of VSSUT ever since it came into existence. Unflinching academic rigor and strict adherence towards ethics are core values of VSSUT. Tough evaluation standards, strict deadlines of submissions of reports, frequent examinations are few highlights of the uncompromising levels of academic standards. This makes the students gradually elevate from learners to astute professionals capable of handling industry / corporate pressure and still deliver high performance. The competitive environments offered by VSSUT makes the students ready to face the ever- changing and highly challenging actual job arena. We also have the best gamut of faculty who not only serve VSSUT but also deliver in other reputed institutions all across the region and are on panels of IITs and NITs."]
-    },
-  
-    {"tag": " study hours",
-    "patterns": ["what are your hours","when are you guys open","what your hours of operation","college study hours"],
-    "responses": ["Our college premises will be open from 7:00 am to 5:00 pm only."]
-    },
-  
-    {"tag": "funActivities",
-    "patterns": ["will there be any extra curriculum activities?","does the college conducts any fun program"],
-    "responses": ["Yes, Of course. Our college not only provides excellent education but also encourage students to take part in different curriculum activities. The college conducts yearly programs like Sports meet, Carnival, Holi festival, and Christmas. \n Also our college has basketball court, badminton court, table tennis, chess, carrom board and many more refreshment zones."]
-    },
-  
-    {"tag": "facilities",
-    "patterns": ["what facilities are provided by the college?","what are the facilities of college for students", "what are the college infrastructures ","college facilities"],
-    "responses": ["With excellent education facilities, Our College provides various other facilities like 24 hours internet,1200 capacity Auditorium,300 capacity Biju Pattnaik E-learning Centre, library, discusson room, canteen, parking space,Research Facility,Workshop,guest house and student service for any students queries."]
-    },
-  
-    {"tag": "fee",
-    "patterns": ["how much is the college fee","what is the fee structure","fee structire "],
-    "responses": ["The college fee varies from courses to courses and semester to semester \n. You can check it on our website - https://www.vssut.ac.in/course-fees.php"]
-    },
-    {"tag": "Area",
-    "patterns": ["Total area of vssut","Total acres","available area of students "],
-    "responses": ["TTotal area Available: 502 Acre Built up area Academics(45896sqm)+ Hostel for Boys and Girls(87466sqm) = 133362Sqm"]
-    },
-    
-    
-    {"tag": "goodbye",
-    "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
-    "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
-    },
-  
-    {"tag": "invalid",
-      "patterns": ["","gvsd","asbhk","hgy","er","wesdfr","yuyy"],
-      "responses": ["Sorry, can't understand you", "Please give me more info"]
-    },
-  
-    {"tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    }
-  ]}
+  {"tag": "goodbye",
+  "patterns": ["cya","See you later","Goodbye","I am leaving","Have a Good Day","bye","see ya"],
+  "responses": ["Sad to see you go :(","Talk you later","Goodbye"]
+  },
+
+  {"tag": "invalid",
+    "patterns": ["","gvsd","asbhk","hgy","er","wesdfr","yuyy"],
+    "responses": ["Sorry, can't understand you", "Please give me more info"]
+  },
+
+  {"tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+    "responses": ["Happy to help!", "Any time!", "My pleasure"]
+  }
+]}
